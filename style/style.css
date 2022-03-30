@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  width: 60%;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+  margin-top: 40px;
+  color: #494848;
+}
+
+form#todoForm {
+  width: 100%;
+  margin-top: 30px;
+}
+
+form#todoForm > input#todoInputText {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-weight: 700;
+}
+
+form#todoForm > button#addBtn {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 2px;
+  cursor: pointer;
+}
+
+ul#todoLists {
+  width: 100%;
+  margin: 8px 0;
+}
+
+ul#todoLists > li.todo {
+  list-style: none;
+  width: 100%;
+  padding: 10px;
+  border: 1px #494848 solid;
+  border-radius: 5px;
+  margin-bottom: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#delBtn {
+  border: none;
+  background-color: red;
+  color: white;
+  font-size: 500;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
